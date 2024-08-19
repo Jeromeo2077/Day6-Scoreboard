@@ -18,7 +18,7 @@
 
   <header class="container-fluid">
     <div class="row">
-      <div class="col d-grid m-2 d-md-flex justify-content-md-end">
+      <div class="col d-grid m-2 d-sm-flex justify-content-sm-end">
         <button onclick="resetTeamScores()" type="button" class="btn btn-success">Reset</button>
       </div>
     </div>
@@ -28,23 +28,24 @@
   <main class="container">
     <div class="row">
       <div class="col">
-        <h1>Red Team:</h1>
+        <h1>Red Team: <span id="redTeamScore"></span></h1>
       </div>
     </div>
 
     <div class="row">
       <div class="col">
-        <h1>Blue Team:</h1>
+        <h1>Blue Team: <span id="blueTeamScore"></span></h1>
+
       </div>
     </div>
 
     <div class="row">
-      <div class="col d-grid m-2 d-md-flex">
-        <button>Red Team +1</button>
+      <div class="col d-grid m-2 d-sm-flex">
+        <button type="button" class="btn btn-danger">Red Team +1</button>
       </div>
     </div>
-    <div class="col d-grid m-2 d-md-flex">
-      <button>Blue Team +1</button>
+    <div class="col d-grid m-2 d-sm-flex">
+      <button type="button" class="btn btn-primary">Blue Team +1</button>
     </div>
 
   </main>
