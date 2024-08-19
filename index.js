@@ -12,8 +12,15 @@ function resetTeamScores() {
   blueTeamScore = 0
 }
 
+//Score Incremental Functions
+function incrementRedTeamScore() {
+  redTeamScore++
+  document.getElementById("redTeamScore").innerHTML = redTeamScore
+}
+
+function incrementBlueTeamScore() {
+  blueTeamScore++
+  document.getElementById("blueTeamScore").innerHTML = blueTeamScore
+}
 
 
-document.getElementById("blueTeamScore").innerHTML = blueTeamScore
-
-document.getElementById("redTeamScore").innerHTML = redTeamScore
