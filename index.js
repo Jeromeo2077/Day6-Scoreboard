@@ -1,5 +1,3 @@
-console.log('Hello World')
-
 //Variables for Team Scores
 let redTeamScore = 0
 let blueTeamScore = 0
